@@ -8,7 +8,6 @@ MyServer::MyServer(boost::asio::io_service& io_service_, short port)
     , m_acceptor(io_service_, tcp::endpoint(tcp::v4(), port))
     , m_tcpSocket(io_service_)
 {
-
     acceptLoop();
 }
 

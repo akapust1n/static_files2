@@ -11,8 +11,6 @@ public:
 private:
     void acceptLoop();
     void onAccept(shared_ptr<tcp::socket> &socket, const boost::system::error_code& err_code);
-    void agregatePath(shared_ptr<tcp::socket> socket, const boost::system::error_code& err_code);
-    void write(shared_ptr<tcp::socket> socket, shared_ptr<char> data);
 
 private:
     tcp::acceptor m_acceptor;

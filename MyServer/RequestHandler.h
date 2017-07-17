@@ -1,4 +1,5 @@
-#ifndef REQUESTHANDLER_H#define REQUESTHANDLER_H
+#ifndef REQUESTHANDLER_H
+#define REQUESTHANDLER_H
 
 #include <string>
 #include <map>

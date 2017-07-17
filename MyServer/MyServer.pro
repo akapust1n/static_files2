@@ -1,10 +1,7 @@
 CONFIG += c++14
 
 TARGET = MyServer
-CONFIG += console
-CONFIG -= app_bundle
 
-TEMPLATE = app
 LIBS += \
        -lboost_system\
        -lboost_chrono \
